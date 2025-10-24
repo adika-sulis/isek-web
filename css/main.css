@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cacaca;
+}
+
+nav .container.fluid {
+    height: 100%;
+}
+
+nav *{
+font-weight: normal;
+}
+
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
