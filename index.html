@@ -17,6 +17,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css" />
+
+    <script src="./js/alert.js" defer></script>
 </head>
 
 <body>
@@ -29,8 +31,11 @@
                 <!-- <a class="navbar-brand text-white mt-1" href="index.html">
                     <h3>i-sek</h3>
                 </a>-->
-                <a class="navbar-brand text-white mt-2 position-relative " href="#">
+                <a class="navbar-brand text-white mt-2 position-relative a-disabled" disabled>
                     <h5>Újítások</h5>
+                </a>
+                <a class="navbar-brand text-white mt-2 ms-3 position-relative a-disabled" disabled>
+                    <h5>Szavak</h5>
                 </a>
             </div>
         </nav>
@@ -39,25 +44,42 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
+                    <div class="alert alert-danger alert m-4" id="alert-danger">
+                        <h4 class="alert-heading">Figyelem!</h4>
+                        <a class="alert-x" onclick="alertDangerX()">X</a>
+                        <p>A weboldal még kezdetleges! <br>
+                            Még nincsen kész szóval nem minden funkció elérhető.</p>
+                    </div>
+                </div>
+                <div class="col-12">
                     <div class="alert alert-warning m-4" role="alert">
                         <h4 class="alert-heading">i-sek 0.1.5 - Release</h4>
-                        <p>Elérhető az i-sek 0.9.5-ös verziója! Ebben a verzióban több hibajavítás és kisebb fejlesztések
-                            történtek a nyelvben.</p>
+                        <p>Elérhető az i-sek 0.1.5-ös verziója!<br>
+                            Az első alkalom, hogy hivatalosan is kiadásra kerül egy verzió!<br>
+                            Pár újabb szó is hozzáadásra került a nyelvhez, valamint kisebb hibajavítások is történtek
+                            (értsd: szó-térképben több egyenlőségjel).<br>
+                        </p>
                         <hr>
-                        <p class="mb-0">További információkért látogass el a <a href=""></a>
+                        <p class="mb-0">További információkért látogass el a <a
+                                href="https://github.com/adika-sulis/i-sek/releases/tag/v0.1.5" target="_blank"
+                                id="releaseAlertLink">Github
+                                oldalrunkra</a>!</p>
+
+                    </div>
                 </div>
+
             </div>
-        </div>
     </main>
-    <footer class="container-fluid bottom-0 bg-dark text-white position-absolute p-3 mt-4">
+    <footer class="container-fluid bottom-0 bg-dark text-white position-fixed p-2">
         <div class="row">
-            <div class="col-12 text-center p-1">
+            <div class="col-12 text-center">
                 <h5>.i-sek</h5>
             </div>
             <div class="col-12 text-center">
                 <p>Készítette: Ádám</p>
             </div>
-            <div class="col-12 text-center"><a href="https://github.com/adika-sulis" target="_blank"><img src="./img/github.png" alt="Github" title="Github fiókom"></a></div>
+            <div class="col-12 text-center"><a href="https://github.com/adika-sulis/i-sek/" target="_blank"><img
+                        src="./img/github.png" alt="Github" title="Github oldalunk"></a></div>
         </div>
     </footer>
 

@@ -18,3 +18,24 @@ footer {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+#releaseAlertLink {
+    color: inherit;
+    cursor: help;
+}
+
+.alert-x {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.a-disabled {
+    text-decoration: none;
+    cursor: not-allowed;
+}
