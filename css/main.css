@@ -10,8 +10,12 @@ nav .container.fluid {
     height: 100%;
 }
 
-nav *{
-font-weight: normal;
+nav * {
+    font-weight: normal;
+}
+
+.nav-git {
+    right: 2rem;
 }
 
 footer {
