@@ -4,6 +4,9 @@
 
 body {
     background-color: #cacaca;
+    min-height: fit-content;
+    height: 100%;
+
 }
 
 nav .container.fluid {
@@ -58,7 +61,7 @@ footer {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     overflow: hidden !important;
-    position: static;
+    position: static !important;
     bottom: 0;
     max-width: 100vw;
 }
