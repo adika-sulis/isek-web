@@ -1,3 +1,36 @@
 # isek-web
 ### Work in progress
-> nem pusholtam még > kezdetleges
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
+
+### Work in progress
