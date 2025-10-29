@@ -4,6 +4,7 @@
 
 body {
     background-color: #cacaca;
+    overflow: auto;
 }
 
 nav .container.fluid {
@@ -15,12 +16,7 @@ nav * {
 }
 
 .nav-git {
-    right: 2rem;
-}
-
-footer {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    right: 18px;
 }
 
 #releaseAlertLink {
@@ -42,4 +38,28 @@ footer {
 .a-disabled {
     text-decoration: none;
     cursor: not-allowed;
+}
+
+.link {
+    color:#a40909;
+    text-decoration: underline;
+}
+
+/* Margin bottom for the alert div to prevent overlap with footer */
+.alert-div {
+    margin-bottom: 7rem;
+}
+
+#not-available {
+    display: none;
+    font-weight: bold;
+}
+
+footer {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden !important;
+    position: fixed;
+    bottom: 0;
+    max-width: 100vw;
 }
